@@ -1,0 +1,148 @@
+name: ChromestoneEssentials
+main: com.gmail.absolutevanillahelp.ChromestoneEssentials.ChromestoneEssentials
+version: 1.0
+commands:
+  SpawnC:
+    description: Tp to Spawn
+    usage: /SpawnC
+    permission: ChromestoneEssentials.SpawnC
+    permission-message:
+  SetSpawnC:
+    description: Sets Spawn
+    usage: /SetSpawnC
+    permission: ChromestoneEssentials.SetSpawnC
+    permission-message:
+  ShopC:
+    description: Tp to Shop
+    usage: /ShopC
+    permission: ChromestoneEssentials.ShopC
+    permission-message:
+  SetShopC:
+    description: Sets Shop Location
+    usage: /SetShopC
+    permission: ChromestoneEssentials.SetShopC
+    permission-message:
+  RemoveC:
+    description: Removes Torches-50BlockRadius
+    usage: /RemoveC
+    permission: ChromestoneEssentials.RemoveC
+    permission-message:
+  SetPZSpawnC:
+    description: Sets a Pig Zombie SpwnPt
+    usage: /SetPZSpawnC [number]
+    permission: ChromestoneEssentials.SetPZSpawnC
+    permission-message:
+  RepairC:
+    description: Repairs certain stuff
+    usage: /RepairC [iron|gold|bow|diamond]
+    permission: ChromestoneEssentials.RepairC
+    permission-message:
+  FW:
+    description: FireWorks wherever you go!
+    usage: /FW
+    permission: ChromestoneEssentials.FW
+    permission-message:
+  ModestC:
+    description: Toggles god/godess tags
+    usage: /ModestC
+    permission: ChromestoneEssentials.ModestC
+    permission-message:
+  /say:
+    description: null
+    usage: //say
+    permission: ChromestoneEssentials.say
+    permission-message: This command can only be run from console!
+  SuperEnchantC:
+    description: Adds Aweseome Enchantments
+    usage: /SuperEnchantC
+    permission: ChromestoneEssentials.SuperEnchantC
+    permission-message:
+  DestroyPigmanC:
+    description: Destroys all unnamed pigman
+    usage: /DestroyPigman
+    permission: ChromestoneEssentials.DestroyPigmanC
+    permission-message:
+  FillC:
+    descrption: Fills air blocks
+    usage: /Fill [material] [radius]
+    permission: ChromestoneEssentails.FillC
+    permission-message:
+  MarketC:
+    description: Potion Market Teleport
+    usage: /MarketC
+    permission: ChromestoneEssentials.MarketC
+    permission-message:
+  SetMarketC:
+    description: Sets Market Location
+    usage: /SetMarketC
+    permission: ChromestoneEssentials.SetMarketC
+    permission-message:
+  BlowUpC:
+    description: Blows Up A Player
+    usage: /ExplodeC [player]
+    permission: ChromestoneEssentials.BlowUpC
+    permission-message:
+  UnEnchantC:
+    description: UnEnchant Your Item
+    usage: /UnEnchantC
+    permission: ChromestoneEssentials.UnEnchantC
+    permission-message:
+  SecureCheckC:
+    description: Is this player valid???
+    usage: /SecureCheckC
+    permission: ChromestoneEssentials.SecureCheckC
+    permission-message:
+  UnlockC:
+    description: Known to few
+    usage: /UnlockC
+    permission: ChromestoneEssentials.UnlockC
+    permission-message:
+  ReloadCConfig:
+    description: Relaod Chromestone Config
+    usage: /RelaodCConfig
+    permission: ChromestoneEssentials.RelaodCConfig
+    permission-message:
+permissions:
+  ChromestoneEssentials.SpawnC:
+    default: op
+  ChromestoneEssentials.SetSpawnC:
+    default: op
+  ChromestoneEssentials.ShopC:
+    default: true
+  ChromestoneEssentials.SetShopC:
+    default: op
+  ChromestoneEssentials.BreakAll:
+    default: op
+  ChromestoneEssentials.RemoveC:
+    default: op
+  ChromestoneEssentials.SetPZSpawnC:
+    default: op
+  ChromestoneEssentials.RepairC:
+    default: true
+  ChromestoneEssentials.FW:
+    default: true
+  ChromestoneEssentials.ModestC:
+    default: true
+  ChromestoneEssentials.say:
+    default: op
+  ChromestoneEssentials.SuperEnchantC:
+    default: op
+  ChromestoneEssentials.DestroyPigmanC:
+    default: op
+  ChromestoneEssentails.FillC:
+    default: op
+  ChromestoneEssentials.MarketC:
+    default: true
+  ChromestoneEssentials.SetMarketC:
+    default: op
+  ChromestoneEssentials.BlowUpC:
+    default: true
+  ChromestoneEssentials.UnEnchantC:
+    default: true
+  ChromestoneEssentials.SecureCheckC:
+    default: true
+  ChromestoneEssentials.UnlockC:
+    default: true
+  ChromestoneEssentials.RelaodCConfig:
+    default: op
+depend: [CombatTag]
