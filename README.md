@@ -4,7 +4,7 @@ This was plugin was mainly a supplement for a minigame I assembled with other pl
 
 Some features include:
 
-Random zombie pigman spawning
+Random zombie pigman spawning (you can farm the gold nuggets and use them to exchange as money if another shop plugin is installed)
 
 Lighting Casting (for Goddesses)
 
