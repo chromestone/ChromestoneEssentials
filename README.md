@@ -1,6 +1,6 @@
 # Chromestone Essentials
 
-  - A Minecraft minigame (that doesn't ever end lol)
+A Minecraft minigame (that doesn't ever end lol).
 
 This plugin puts together a minigame through assembling and interfacing with other plugins I found.
 
