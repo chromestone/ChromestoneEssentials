@@ -1,26 +1,28 @@
-Chromestone Essentials - A Minecraft minigame (that doesn't ever end lol)
+# Chromestone Essentials
 
-This was plugin was mainly a supplement for a minigame I assembled with other plugins I found
+  - A Minecraft minigame (that doesn't ever end lol)
 
-Some features include:
+This plugin puts together a minigame through assembling and interfacing with other plugins I found.
 
-Random zombie pigman spawning (you can farm the gold nuggets and use them to exchange as money if another shop plugin is installed)
+**Some features include:**
 
-Lighting Casting (for Goddesses)
+* Random zombie pigman spawning (you can farm the gold nuggets and use them to exchange as money if another shop plugin is installed)
 
-A "shop" location / spawn protection (no PVP in a given area)
+* Lighting Casting (for Goddesses)
 
-DEPENDENCIES:
+* A "shop" location / spawn protection (no PVP in a given area)
 
-CombatTag
+**DEPENDENCIES:**
 
-RECOMMENDED to be used with (as how I used it):
+* CombatTag
 
-Carz (this allowed easy transportation in a minecart, tons of fun :)
+_RECOMMENDED to be used with (as how I used it):_
 
-Chest Refilling plugins (gives some "Hunger Games" theme into the game)
+* Carz (this allowed easy transportation in a minecart, tons of fun :)
 
-Shop plugins
+* Chest Refilling plugins (gives some "Hunger Games" theme into the game)
+
+* Shop plugins
 
 Bukkit version: bukkit-1.7.2-R0.3
 
